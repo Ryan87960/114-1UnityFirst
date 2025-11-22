@@ -292167,11 +292167,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 974238578668270715, guid: 3103f0db07346ce4bbb369c21bd0b32f, type: 3}
       propertyPath: MoveSpeed
-      value: 4
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 974238578668270715, guid: 3103f0db07346ce4bbb369c21bd0b32f, type: 3}
       propertyPath: SprintSpeed
-      value: 7
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: 3103f0db07346ce4bbb369c21bd0b32f, type: 3}
       propertyPath: m_LocalPosition.x
