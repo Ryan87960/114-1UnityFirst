@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5bc9f8394c2d22842ae6cc2865588249
+guid: cb39cc081e8c25949933de84478f43a8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -970,4 +970,4 @@ AssetOrigin:
   packageName: Human Soldier Animations FREE
   packageVersion: 1.0
   assetPath: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@Damage01.fbx
-  uploadId: 807790
+  uploadId: 825260
