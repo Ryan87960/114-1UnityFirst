@@ -14,6 +14,9 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        public Transform 發射點;
+        public GameObject 子彈;
+
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
@@ -393,5 +396,13 @@ namespace StarterAssets
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
         }
+        public void Fire()
+        {
+            Debug.Log("Fire");
+            GameObject bb = Instantiate(子彈, 發射點.position, Quaternion.identity);
+            bb.GetComponent<Rigidbody>().linearVelocity = Vector3.forward * Time.deltaTime * 100;
+            Destroy(bb, 3f);
+        }
+
     }
 }
